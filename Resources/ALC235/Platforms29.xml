@@ -17,8 +17,6 @@
 	<key>PathMaps</key>
 	<array>
 		<dict>
-			<key>Comments</key>
-			<string>Rockjesus.cn - Realtek ALC298 for Alienware 17 R4 2.1ch</string>
 			<key>PathMap</key>
 			<array>
 				<array>
@@ -52,11 +50,11 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>17</integer>
+								<integer>8</integer>
 							</dict>
 							<dict>
 								<key>NodeID</key>
-								<integer>36</integer>
+								<integer>35</integer>
 							</dict>
 							<dict>
 								<key>Boost</key>
@@ -98,17 +96,17 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>8</integer>
+								<integer>9</integer>
 							</dict>
 							<dict>
 								<key>NodeID</key>
-								<integer>35</integer>
+								<integer>34</integer>
 							</dict>
 							<dict>
 								<key>Boost</key>
 								<integer>3</integer>
 								<key>NodeID</key>
-								<integer>24</integer>
+								<integer>25</integer>
 							</dict>
 						</array>
 					</array>
@@ -129,7 +127,7 @@
 									<false/>
 								</dict>
 								<key>NodeID</key>
-								<integer>33</integer>
+								<integer>20</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
@@ -193,7 +191,7 @@
 									<false/>
 								</dict>
 								<key>NodeID</key>
-								<integer>23</integer>
+								<integer>33</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
@@ -245,7 +243,7 @@
 				</array>
 			</array>
 			<key>PathMapID</key>
-			<integer>298</integer>
+			<integer>1</integer>
 		</dict>
 	</array>
 </dict>

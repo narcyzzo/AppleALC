@@ -1,8 +1,46 @@
 AppleALC Changelog
 ==================
+#### v1.7.3
+- Added constants for macOS 13 support
+- Fix sleep breaking earphone support on ALC295 layout-id 13 by Mahas1
+- Fixed NUC8I5BEH JUST MIC ALC235 layout-id 88 by @frozenzero123
+
+#### v1.7.2
+- Added layout-id 97 ALC257 for Lenovo Thinkpad T490 by @savvamitrofanov
+- Update controller patch for 400 series 0x06C8 to fix HDMI audio by @Core-i99
+- Added ALC255(3234) layout-id 255  for Dell Inspiron 5548 by CynCYX
+- Added ALC897 layout-id 77 for ONDA H510 IPC by LewandowskiZ
+- Fix Legion Y9000X 2020 Speaker Mute disabled issue by SukkaW
+
+#### v1.7.1
+- Fixed EAPD for layout 28 ALC269 by @samcabral
+- Fixed wrong file name in ALC287 info.plist
+- Added dump for ALC225 layout 30 by @usr-sse2
+- Added Lenovo M920x for ALC235 LayoutID=72 by @meloay
+- Fixed ALC298 layout-id 11 for Alienware 17 R4 2.1ch by @Rockjesus.cn
+- Fixed MSI MPG Z490 Gaming Plus Sound issue after booting from Windows by @JanoMorano
+- Added NUC8I5BEH JUST MIC layout-id 88 by @frozenzero123
+- Added layout-id 59 ALC292 for Dell M4800 with dockstation support by @hansyao
+
+#### v1.7.0
+- Fix headphones after sleep on Latitude 7390 2-in-1 (ALC225 layout 30)
+- Added `dump_coeff.sh` script in `Tools` to dump processing caps under macOS, plus docs in Wiki
+- Added MSI Modern 15 A10M ALC235 layout 29 by @hla63
+- Added ALC269 layout-id 26 for Infinix INBook X1 XL11 by @andreszerocross
+- Added layout-id 39 for Realtek ALC274 - Mechrevo UmiPro3 (Tongfang GM5MG0Y) by @harahi
+- Added layout-id 96 for Realtek ALC257 - Lenovo Thinkpad L390 by @antoniomcr96
+- Added ALC883 with fixed MuteGPIO and noise in headphones layout 20 for Atermiter X79G by @samcabral
+
 #### v1.6.9
 - Added 0x100003 revision for ALCS1220A
 - Updated pinconfig ALC897 layout-id 12 by @Sergey-Galan
+- Replace 200 Series PCH HD Audio 0xA2F0 controller patch
+- Update 0xA2F0 controller patch to fix HDMI audio by @Core-i99
+- Improved compatibility of `alc-verb` with Linux `hda-verb`
+- Reduce input gain for mics for layout 20 ALC230 by @samcabral
+- Update Pin Config for layout 16 ALC1220
+- Added ALC294 layout-id 44 for ASUS UX534FAC by @narcyzzo
+- Added ALC1220A Layout 13 for Asus ProArt Z690-Creator WiFi by @CaseySJ
 
 #### v1.6.8
 - Replace patch for 500 Series(0x43C8) PCH HD Audio
